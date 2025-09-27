@@ -5,21 +5,25 @@ export default function Header() {
     <>
       <header className={css.header}>
         <div className={css.container}>
-          <img
-            className={css.imeg}
-            src={logo}
-            alt="Logo"
-            width="80"
-            height="80"
-          />
-
-          <nav>
-            <ul>
-              <li>Відгуки</li>
-              <li>Відгуки</li>
-              <li>Про школу</li>
-            </ul>
-          </nav>
+          <div className={css.logo}>
+            <img
+              className={css.imeg}
+              src={logo}
+              alt="Logo"
+              width="80"
+              height="80"
+            />
+          </div>
+          <div className={css.contNav}>
+            <nav className={css.nav}>
+              <a href="/">Курси</a>
+              <a href="/">Відгуки</a>
+              <a href="/">Про школу</a>
+            </nav>
+          </div>
+          <div>
+            <button className={css.button}>Click</button>
+          </div>
         </div>
       </header>
     </>
