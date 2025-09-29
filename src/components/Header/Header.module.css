@@ -16,10 +16,15 @@
   padding: 1rem 2rem;
 }
 
-.imeg {
-  background-color: #123458;
+.logo {
+  position: relative;
+  z-index: 100; /* поверх canvas */
+}
+
+.imeg * {
   margin-left: 4px;
   margin-top: 4px;
+  fill: #fff;
 }
 .nav {
   display: flex;

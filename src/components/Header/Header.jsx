@@ -1,18 +1,13 @@
-import logo from "../../assets/logo.svg";
+import Logo from "../../assets/logo.svg?react";
 import css from "./Header.module.css";
+
 export default function Header() {
   return (
     <>
       <header className={css.header}>
         <div className={css.container}>
           <div className={css.logo}>
-            <img
-              className={css.imeg}
-              src={logo}
-              alt="Logo"
-              width="80"
-              height="80"
-            />
+            <Logo className={css.imeg} width="80" height="100" />
           </div>
           <div className={css.contNav}>
             <nav className={css.nav}>
