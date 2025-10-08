@@ -16,9 +16,8 @@ export default function Header() {
               <a href="/">Про школу</a>
             </nav>
           </div>
-          <div>
-            <button className={css.button}>Click</button>
-          </div>
+
+          <button className={css.button}>Click</button>
         </div>
       </header>
     </>

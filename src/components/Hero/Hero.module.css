@@ -25,4 +25,22 @@
 
 .title {
   font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+.sab {
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  padding: 0 2.4rem 0 calc(2.4rem + 6px);
+  border-radius: 50px;
+  border: 1px solid rgba(57, 3, 79, 0.778);
+  background: #ffffff03;
+  box-shadow: 0 8px 32px #1f268726;
+  backdrop-filter: blur(15px);
 }

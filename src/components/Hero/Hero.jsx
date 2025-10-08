@@ -8,10 +8,16 @@ export default function Hero() {
       <div className={css.container}>
         <DarkVeil />
         <div className={css.content}>
-          <h1 className={css.title}>Італійська зараз</h1>
-          <h1>Hello</h1>
-          <h1>Hello</h1>
-          <h1>Hello</h1>
+          <h1 className={css.title}>Італійська зараз - Заговори за 3 місяці</h1>
+
+          <div className={css.text}>
+            Курси онлайн італійської мови для: роботи, життя, отримання
+            громадянства та вступи в навчальні заклади.
+          </div>
+          <div className={css.wrapperButton}>
+            <button className={css.buttonHero}>Курси</button>
+            <button className={css.buttonHero}>Зв'язатися</button>
+          </div>
         </div>
       </div>
     </section>
