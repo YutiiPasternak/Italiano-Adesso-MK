@@ -7,7 +7,8 @@ export default function Header() {
       <header className={css.header}>
         <div className={css.container}>
           <div className={css.logo}>
-            <Logo className={css.imeg} width="80" height="100" />
+            <Logo className={css.imeg} width="120" height="120" />
+            <span className={css.companyName}>Italiano-Adesso-MK</span>
           </div>
           <div className={css.contNav}>
             <nav className={css.nav}>

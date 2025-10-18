@@ -1,3 +1,13 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* фон тягнеться на всю ширину */
+  background: transparent; /* або твій фон */
+  z-index: 1000;
+  padding: 1rem 0;
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -6,19 +16,37 @@
   margin: 0 auto;
   padding: 0 20px;
 
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
   background: transparent; /* прозорий фон */
   /* легке розмиття фону (опціонально) */
   z-index: 1000; /* завжди зверху */
-  padding: 1rem 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 3rem;
 }
 
 .logo {
   position: relative;
   z-index: 100; /* поверх canvas */
+  display: flex;
+  align-items: center;
+}
+
+.companyName {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  /* ефект світіння для краси */
+  text-shadow: 0 0 10px rgba(162, 97, 255, 0.6);
+  border-bottom: 1px solid rgba(138, 43, 226, 0.5);
+  font-family: "Fjalla One", sans-serif;
+  padding-bottom: 5px;
 }
 
 .imeg * {
@@ -84,6 +112,7 @@ button {
   background-image: linear-gradient(90deg, #28285a, #6220fb);
   border: 0 solid;
   overflow: hidden;
+  width: 200px;
 }
 
 button:hover {
