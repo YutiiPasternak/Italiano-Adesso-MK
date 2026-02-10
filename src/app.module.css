@@ -1,9 +1,39 @@
-.container {
-  margin: 0 auto;
-  padding: 0 1rem;
-  background-color: rgb(8, 4, 14);
-  max-width: 1280px;
+@import "modern-normalize/modern-normalize.css";
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  color: #fff;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+  color: rgb(8, 4, 14);
+}
+
+.container {
+  background-color: white;
+  color: rgb(8, 4, 14);
   font-family: "Roboto", sans-serif;
+
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding: 0 32px;
+  }
 }
