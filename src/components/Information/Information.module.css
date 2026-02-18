@@ -62,4 +62,5 @@
   border-radius: 50px;
   background: linear-gradient(90deg, #008c45, #f4f5f0, #cd212a);
   cursor: pointer;
+  margin-bottom: 20px;
 }

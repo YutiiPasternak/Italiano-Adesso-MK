@@ -6,6 +6,7 @@ import Information from "./components/Information/Information.jsx";
 import DarkVeil from "./components/Hero/DarkVeil";
 import SpeakItalian from "./components/SpeakItalian/SpeakItalian";
 import Courses from "./components/Courses/Courses.jsx";
+import School from "./components/School/School.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Information />
         <SpeakItalian />
         <Courses />
+        <School />
       </div>
     </>
   );

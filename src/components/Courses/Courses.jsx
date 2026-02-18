@@ -14,12 +14,14 @@ export default function Courses() {
             <p className={css.text}>
               Італійська з нуля до роботи 20 відео уроків
             </p>
+            <button className={css.button}>Замовити</button>
           </div>
           <div className={css.box}>
             <h3 className={css.subtitle}>Класичний</h3>
             <p className={css.text}>
               Для тих хто хоче отримати італійське громадянство
             </p>
+            <button className={css.button}>Замовити</button>
           </div>
           <div className={css.box}>
             <h3 className={css.subtitle}>Інтенсив</h3>
@@ -27,6 +29,7 @@ export default function Courses() {
               Для тих кому потрібна підготовка для вступу в італійський
               навчальний заклад
             </p>
+            <button className={css.button}>Замовити</button>
           </div>
         </div>
       </div>
